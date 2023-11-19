@@ -94,7 +94,8 @@ def main():
           st.table(df)
 
           with st.expander("See explanation"):
-            st.markdown('''**Subject-Verb Agreement Errors**: Occur when the verb form does not agree with the subject in number (singular or plural). For example, "She walk to school every day" instead of "She walks to school every day."
+            st.markdown('''
+    **Subject-Verb Agreement Errors**: Occur when the verb form does not agree with the subject in number (singular or plural). For example, "She walk to school every day" instead of "She walks to school every day."
 
     **Run-on Sentences and Comma Splices**: These happen when two or more independent clauses are incorrectly joined without proper punctuation or conjunction. For example, "I went shopping I bought a dress."
 
@@ -110,7 +111,8 @@ def main():
 
     **Incorrect Use of Articles**: Mistakes involving the use of 'a', 'an', and 'the' can affect sentence structure and meaning.
 
-    **Mixed Constructions**: These errors happen when a sentence starts with one construction and then abruptly changes to another, leading to confusion.''')
+    **Mixed Constructions**: These errors happen when a sentence starts with one construction and then abruptly changes to another, leading to confusion.
+                        ''')
 
     ##
     st.header("Suggest a New Text Augmentation")
