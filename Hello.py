@@ -35,7 +35,7 @@ def add_submission(submissions, entry):
 
 @st.cache_resource
 def get_client():
-    client = OpenAI()
+    client = OpenAI(api_key=st.secrets["openai_api_key"])
     return client
 
 def augment_text(augmentation_type, prompt, client):
