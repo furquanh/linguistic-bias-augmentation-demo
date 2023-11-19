@@ -81,12 +81,12 @@ def main():
           augmented_sentences = []
           progress_text = "Applying augmentations. Please wait."
           my_bar = st.progress(0, text=progress_text)
-          i = 10
+          i = 6
           for augmentation_type, prompt_format in prompt_map.items():
               prompt = prompt_format + sentence
               augmented_sentence = augment_text(augmentation_type, prompt, client)
               my_bar.progress(i, text=progress_text)
-              i += 10
+              i += 6  
               augmented_sentences.append((augmentation_type, augmented_sentence))
           my_bar.empty()
           df = pd.DataFrame(augmented_sentences, columns=['Augmentation Type', 'Augmented Text'])
