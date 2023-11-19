@@ -16,6 +16,7 @@ import streamlit as st
 from streamlit.logger import get_logger
 from openai import OpenAI
 import pandas as pd
+import time
 
 LOGGER = get_logger(__name__)
 
