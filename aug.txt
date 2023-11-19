@@ -1,0 +1,6 @@
+"Incorrect Tense Use": "Change the tense in the following sentence inappropriately: ",
+"Misplaced or Dangling Modifiers": "Rearrange the following sentence to create a misplaced or dangling modifier: ",
+"Wrong Word Order": "Rearrange the words in this sentence into an incorrect but syntactically possible order: ",
+"Pronoun-Antecedent Agreement Errors": "modify this sentence so that the pronouns do not agree in number with their antecedents: ",
+"Incorrect Use of Articles": "modify this sentence so to show incorrect use of articles: ",
+"Mixed Constructions": "Change this sentence to have mixed constructions, starting in one grammatical structure and ending in another: "
