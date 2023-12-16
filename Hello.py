@@ -132,7 +132,7 @@ def main():
             st.rerun()
 
     st.header("Suggested Augmentations:")
-    st.dataframe(submissions, use_container_width=True)
+    st.dataframe(submissions, use_container_width=False)
 
 if __name__ == "__main__":
     main()
