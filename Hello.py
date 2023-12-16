@@ -20,7 +20,7 @@ import time
 
 LOGGER = get_logger(__name__)
 
-@st.cache_resource
+@st.cache_data(persist="disk") 
 def load_submissions():
     try:
         return pd.read_csv("submissions.csv").reset_index(drop=True)
